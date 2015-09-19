@@ -87,7 +87,7 @@
             </section>
             <section>
                 <h2>Early input and output</h2>
-                <img src="img/1.jpg" height="540">
+                        <img src="img/1.jpg" height="540">
             </section>
             <!-- Example of nested vertical slides -->
             <section>
@@ -161,10 +161,11 @@
             <section>
                 <h4>IBM 7094</h4>
                 <img src="img/ibm7094.jpg" height="200">
-                <div class="fragment"><h4>Calcomp drum plotter model 565</h4>
-                <img src="img/calcomp.jpg" height="200">
+                <div class="fragment">
+                    <h4>Calcomp drum plotter model 565</h4>
+                    <img src="img/calcomp.jpg" height="200">
                 </div>
-                <h4  class="fragment">and puchcards...</h4>
+                <h4 class="fragment">and puchcards...</h4>
             </section>
             <section>
                 <section>
@@ -193,12 +194,25 @@
                     <img src="img/levels.png" height="600">
                 </section>
             </section>
-                        <section>
-                <h3>Early CRT Displays</h3>
-                <img src="img/7.jpg" height="500">
-                <h3>(vector only, no color)</h3>
+            <section>
+                <section>
+                    <h3>Early CRT Displays</h3>
+                    <img src="img/7.jpg" height="500">
+                    <h3>(vector only, no color)</h3>
+                    <a href="#" class="navigate-down">
+                    </a>
+                </section>
+                <section>
+                    <h3>John Whitney</h3>
+                    <img src="img/whitney.GIF" height="400">
+                </section>
+                <section>
+                    <h3>Lillian Shwartz</h3>
+                    <img src="img/LShwartz.jpg" height="400">
+                </section>
+
             </section>
-<!--             <section>
+            <!--             <section>
                 <h3>Lillian F. Schwartz</h3>
                 <img src="img/8.png" height="500">
                 <h3>“PIXILLATION”, 1970</h3>
@@ -602,55 +616,55 @@ Reveal.addEventListener( 'customevent', function() {
                     <br> - <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
                 </p>
             </section>
+            </div>
         </div>
-    </div>
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
-    <script>
-    // Full list of configuration options available at:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script>
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
 
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-        // Optional reveal.js plugins
-        dependencies: [{
-            src: 'lib/js/classList.js',
-            condition: function() {
-                return !document.body.classList;
-            }
-        }, {
-            src: 'plugin/markdown/marked.js',
-            condition: function() {
-                return !!document.querySelector('[data-markdown]');
-            }
-        }, {
-            src: 'plugin/markdown/markdown.js',
-            condition: function() {
-                return !!document.querySelector('[data-markdown]');
-            }
-        }, {
-            src: 'plugin/highlight/highlight.js',
-            async: true,
-            condition: function() {
-                return !!document.querySelector('pre code');
-            },
-            callback: function() {
-                hljs.initHighlightingOnLoad();
-            }
-        }, {
-            src: 'plugin/zoom-js/zoom.js',
-            async: true
-        }, {
-            src: 'plugin/notes/notes.js',
-            async: true
-        }]
-    });
-    </script>
+            // Optional reveal.js plugins
+            dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function() {
+                    return !document.body.classList;
+                }
+            }, {
+                src: 'plugin/markdown/marked.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/markdown/markdown.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function() {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }]
+        });
+        </script>
 </body>
 
 </html>
