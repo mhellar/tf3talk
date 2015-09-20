@@ -1667,7 +1667,7 @@ body {
 @import url(http://fonts.googleapis.com/css?family=Concert+One);
 
 .intro {
-  animation:glow 60s ease-in-out infinite;
+  animation:glow 10s ease-in-out infinite;
   
   
 
@@ -1679,7 +1679,6 @@ body {
 =========== */
   
 }
-
 
 figure {
   animation:wobble 5s ease-in-out infinite;
@@ -1703,9 +1702,9 @@ figure {
 .intro {
   display:block;
   width:100%;
-  padding:40px;
+  padding:20px;
   line-height:1.5;
-  font:600 8em 'Concert One', sans-serif;
+  font:600 4em 'Concert One', sans-serif;
   text-transform:uppercase;
   position:absolute;
   color:#0a0a0a;
@@ -1729,8 +1728,8 @@ figure {
 .intro:nth-child(3){ transform:translateZ(10px);}
 .intro:nth-child(4){ transform:translateZ(15px); }
 .intro:nth-child(5){ transform:translateZ(20px); }
-.intro:nth-child(6){ transform:translateZ(25px); }
+/*.intro:nth-child(6){ transform:translateZ(25px); }
 .intro:nth-child(7){ transform:translateZ(30px); }
 .intro:nth-child(8){ transform:translateZ(35px); }
 .intro:nth-child(9){ transform:translateZ(40px); }
-.intro:nth-child(10){ transform:translateZ(45px); }
+.intro:nth-child(10){ transform:translateZ(45px); }*/
