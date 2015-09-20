@@ -1693,6 +1693,12 @@ figure {
   50%{ transform:rotate3d(-1,-1,0,40deg); }
   75%{ transform:rotate3d(1,-1,0,40deg); }
 }
+@-webkit-keyframes wobble{
+  0%,100%{ transform:rotate3d(1,1,0,40deg); }
+  25%{ transform:rotate3d(-1,1,0,40deg); }
+  50%{ transform:rotate3d(-1,-1,0,40deg); }
+  100%{ transform:rotate3d(1,-1,0,40deg); }
+} 
 
 .intro {
   display:block;
@@ -1711,6 +1717,13 @@ figure {
   50%{ text-shadow:0 0 30px forestgreen; }
   75%{ text-shadow:0 0 30px cyan; }
 }
+@-webkit-keyframes glow {
+  0%,100%{ text-shadow:0 0 30px red; }
+  25%{ text-shadow:0 0 30px orange; }
+  50%{ text-shadow:0 0 30px forestgreen; }
+  100%{ text-shadow:0 0 30px cyan; }
+} 
+
 
 .intro:nth-child(2){ transform:translateZ(5px); }
 .intro:nth-child(3){ transform:translateZ(10px);}
