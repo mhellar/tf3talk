@@ -1734,12 +1734,4 @@ figure {
 .intro:nth-child(9){ transform:translateZ(40px); }
 .intro:nth-child(10){ transform:translateZ(45px); }*/
 
-form{
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  background:#efefef;
-  padding:1em;
-  text-align:center;
-}
+
